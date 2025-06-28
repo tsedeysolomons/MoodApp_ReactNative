@@ -3,8 +3,15 @@ import { Link } from "expo-router";
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
-      <Link href="/home/index">View details</Link>
+      <Text>
+        Wellcome To check your current Emotion!
+      </Text>
+      <Link href="/home/details">
+        <button> View details</button>
+      </Link>
+      <Link href="/home/sample">
+        <button>Check your Emotion</button>
+      </Link>
     </View>
   );
 }
