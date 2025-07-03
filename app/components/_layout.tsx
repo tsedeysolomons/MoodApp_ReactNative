@@ -13,7 +13,8 @@ export default function componentsLayout() {
         },
       }}
     >
-      <Stack.Screen name="header" />
+      <Stack.Screen name="Header" />
+      <Stack.Screen name="Footer" />
     </Stack>
   );
 }
