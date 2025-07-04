@@ -1,8 +1,8 @@
 //import Header from "@/app/components/header";
 import BgImage from "@/assets/images/mood.png";
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import Footers from "../components/Footer";
-import Headers from "../components/Header";
+import Footers from "./components/Footer";
+import Headers from "./components/header";
 
 const HomeScreen = () => {
   return (

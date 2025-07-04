@@ -6,11 +6,7 @@ const Footers = () => {
     <View style={styles.container}>
       <Text style={styles.text}>Footer</Text>
       <Text style={styles.text}>copy 2025 @ Tsedey SOlomon </Text>
-      <Text style={styles.text}>
-        <label className="email" htmlFor="email">
-          <input type="email">email</input>
-        </label>{" "}
-      </Text>
+      <Text style={styles.text}>All rights reserved</Text>
     </View>
   );
 };

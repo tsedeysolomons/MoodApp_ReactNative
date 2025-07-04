@@ -4,7 +4,7 @@
     "slug": "MoodApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/favicon.png",
+    "icon": "./assets/images/icon.ico",
     "scheme": "moodapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,15 +13,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/favicon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/icon.ico",
+        "backgroundColor": "#000000"
+        
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.ico"
     },
     "plugins": [
       "expo-router",
