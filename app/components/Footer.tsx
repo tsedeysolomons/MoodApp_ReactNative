@@ -16,15 +16,16 @@ export default Footers;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "flex-end",
+    justifyContent: "center",
     alignItems: "center",
-    padding: 10,
+    padding: 4,
     backgroundColor: "#f8f8f8",
+    borderBlockColor:"red",
   },
   text: {
-    color: "black",
-    fontSize: 54,
+    color: "rgba(0,0,0,0)",
+    fontSize: 15,
     fontWeight: "bold",
-    textAlign: "center",
+    textAlign: "left",
   },
 });
