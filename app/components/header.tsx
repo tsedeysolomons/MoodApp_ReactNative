@@ -1,13 +1,17 @@
 import { Link } from "expo-router";
-import { Pressable, StyleSheet, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 function Header() {
   return (
     <View>
-      <Link href="/home/details" style={styles.text}  asChild>
-        <Pressable style={styles.button}>ViweDetails</Pressable>
+      <Link href="/home/details" style={styles.text} asChild>
+        <Pressable style={styles.button}>
+          <Text>ViweDetails</Text>
+        </Pressable>
       </Link>
-      <Link href="/home/sample" style={styles.text}>
-        <Pressable style={styles.button}>CheckYourEmotion</Pressable>
+      <Link href="/home/sample" style={styles.text} asChild>
+        <Pressable style={styles.button}>
+          <Text>CheckEmotion</Text>
+        </Pressable>
       </Link>
     </View>
   );
@@ -26,5 +30,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 2,
     borderRadius: 10,
+    gap: 10,
+    margin: 10,
   },
 });

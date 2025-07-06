@@ -11,8 +11,8 @@ const HomeScreen = () => {
       <ImageBackground source={BgImage} resizeMode="cover" style={styles.image}>
         <Text style={styles.text}>Wellcome To check your current Emotion!</Text>
         <Text style={styles.text}>ስለዚ ለመለወት ካሰባችሁ ነገም ለላ ከን ነው፡፡</Text>
+        <Footers />
       </ImageBackground>
-      <Footers />
     </View>
   );
 };

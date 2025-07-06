@@ -1,8 +1,16 @@
-function sample(){
-    return(
-<h1>
-    Wellcome To check your current Emotion!
-</h1>
-    )
+import { Text } from "react-native";
+function sample() {
+  return (
+    <Text
+      style={{
+        fontFamily: "check",
+        color: "black",
+        fontSize: 24,
+        justifyContent: "center",
+      }}
+    >
+      This is a sample page to check your emotion
+    </Text>
+  );
 }
 export default sample;
