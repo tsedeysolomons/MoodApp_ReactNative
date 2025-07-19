@@ -1,6 +1,7 @@
 import { Text } from "react-native";
 function sample() {
   return (
+    <>
     <Text
       style={{
         fontFamily: "check",
@@ -11,6 +12,8 @@ function sample() {
     >
       This is a sample page to check your emotion
     </Text>
+    <Text>The resurcha  </Text>
+    </>
   );
 }
 export default sample;
